@@ -1,0 +1,106 @@
+#TECH — Script(language) + Advance Voice recognition(our usp)
+In-house search algo >> make your model on top of open sources models — like perplexity based on models build on top of `mistral-7b` and `llama2-70b` base models. >> a lot of fine tuning would do into it. 
+
+> but our approach should be Frugal —> don’t have fund o make our own llm model—> use Open sources llm mobel and Grammerly API
+> 
+- HOW DOES GRAMMERLY WORK
+    
+    Grammarly operates based on advanced natural language processing (NLP) and artificial intelligence (AI) technologies to assist users in improving their writing.
+    
+    1. **Core Technology:**
+        - Grammarly uses sophisticated algorithms powered by AI to understand the context of sentences and phrases in the English language. It's like having a smart writing assistant that can analyze text comprehensively.
+    2. **NLP for Context:**
+        - Natural Language Processing is a key element. Imagine Grammarly as a highly trained language expert that not only recognizes individual words but also understands how they work together to convey meaning. It's like having a writing coach that knows the rules and nuances of English.
+    3. **Grammar and Writing Rules:**
+        - Grammarly has an extensive database of grammar rules, writing conventions, and style guidelines. Think of it as an AI-powered grammar book that's always up-to-date and provides real-time suggestions as you write.
+    4. **Feedback and Suggestions:**
+        - When you type a sentence, Grammarly scans it instantly, looking for potential errors, awkward phrasing, or style improvements. It's similar to having a writing buddy who points out areas where you can enhance clarity, coherence, and correctness.
+    5. **Adaptive Learning:**
+        - Over time, Grammarly learns from your writing style and preferences.
+        - It's like having a writing assistant who gets to know you and tailors its suggestions to match your writing voice.
+    
+    If you're interested in creating your own Grammarly-like tool:
+    
+    - **Learn NLP Basics:**
+        - Gain a basic understanding of Natural Language Processing. This involves learning how computers can analyze and understand human language.
+    - **Study Grammar Rules:**
+        - Familiarize yourself with grammar rules and writing conventions.
+        - developing algorithms that can identify and correct errors.
+    - **Programming Skills:**
+        - languages commonly used in AI development, like Python.
+    - **Data: —>** Gather a large dataset of text to train your AI model. This can be used to teach your system to recognize various writing styles and patterns.
+    - **Machine Learning:**
+        - Explore supervised learning, to train your model.
+        - This involves providing the AI with labeled examples of correct and incorrect sentences so it can learn to make accurate suggestions.
+    - **Iterative Improvement:**
+        - Continuously refine your system based on feedback.
+        - Just like Grammarly evolves and improves, your tool will become more effective over time with ongoing development and user interaction.
+    
+    ---
+    
+- How would we make speech recognition and synthesis possible?
+    
+    ![IMG_20231017_210105.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/a30e8626-b09b-4158-98f9-2a9737e4f7c7/b0765367-6428-48e6-931f-277f03e5a016/IMG_20231017_210105.jpg)
+    
+    >>>Note: Jurastic Api(is the name of our LLM model API<<<
+    
+    
+    ---
+    
+    ---
+    
+    > **How would we make speech recongnition and synthesis possible? what are we doing is that for speech synthesis and recongnistion we are just fine-tuning, llm models like Speech brain by hugging faces, module like tacotron 2 and fast speech 2 for text to speech. would it be sufficient for the app to recongnise if the user has said some word not correctly and help with his pronunication?**
+    > 
+    > 1. **Speech recognition**: Use AI and machine learning algorithms to convert speech into text. These tools —> understand underlying structure of the speech, such as which tones follow each other and what a realistic speech waveform looks like.
+    1. **Speech synthesis**: Generate speech waveforms from scratch using trained models like WaveNet, which can create more natural-sounding speech compared to other text-to-speech systems. WaveNet models can generate speech audio that people prefer over other text-to-speech technologies
+    2. **Pronunciation improvement**:  use speech synthesis algo to provide feedback on their speech. **For example**, if a user mispronounces a word, the AI can generate the correct pronunciation and guide the user to improve their speech[5](https://www.gnani.ai/resources/blogs/ai-speech-recognition-what-is-it-and-how-it-works/).
+    3. **Text-to-speech**: Utilize tools like Speech Brain by Hugging Face, Tactron 2, and Fast Speech 2 for text-to-speech conversion. These models can generate speech that sounds more human-like and natural.
+    4. **Contextual understanding**: Improve the accuracy of speech recognition by understanding the contextual relation of words and sentences. && continuous improvement.
+    
+    ---
+    
+    1. **Speech Recognition**:
+        - G→Implementing these free and open-source tools for speech recognition and synthesis can significantly reduce the cost of development. Grammarly Api.
+    2. **Speech Synthesis**:
+        - **Open Source Models**: MARY Text-to-Speech, Mozilla TTS, and YakiToMe are open-source models for text-to-speech synthesis[5](https://www.edenai.co/post/top-free-text-to-speech-tools-apis-and-open-source-models).
+        - **Free Text-to-Speech Tools**: There are various free text-to-speech tools available, including MARY Text-to-Speech, Mozilla TTS, YakiToMe, and Facebook's Voicebox.
+        
+        **→Implementing these free and open-source tools for speech recognition and synthesis can significantly reduce the cost of development. Grammarly Api.**
+        
+        t**he availability of free tiers for some Speech-to-Text APIs allows for initial testing and integration at no cost**
+        
+        **Fine-tuning large language models (LLMs) like SpeechBrain by Hugging Face, Taaotron 2, and Fast Speech 2 for text-to-speech can be a sufficient approach for recognizing if the user has pronounced a word incorrectly and helping with their pronunciation.**
+        
+- How perplexity works?
+    
+    Perplexity works????
+    
+    1. **Leverage open sourced models:** our PPLX models build on top of `mistral-7b` and `llama2-70b` base models.
+    2. **In-house search technology:** our in-house search, indexing, and crawling infrastructure allows us to augment LLMs with the most relevant, up to date, and valuable information. Our search index is large, updated on a regular cadence, and uses sophisticated ranking algorithms to ensure high quality, non-SEOed sites are prioritized. Website excerpts, which we call “snippets”, are provided to our `pplx-online` models to enable responses with the most up-to-date information.
+    3. **Fine-tuning**: our PPLX models have been fine-tuned to effectively use snippets to inform their responses. Using our in-house data contractors, we carefully curate high quality, diverse, and large training sets in order to achieve high performance on various axes like helpfulness, factuality, and freshness. Our models are regularly fine-tuned to continually improve performance.
+
+---
+
+| Language Model | Cost per 300 Words |
+| --- | --- |
+| Palm | $2.40 |
+| GPT-3 | $3.00 |
+| GPT-4 | $3.60 |
+| Claude | $4.20 |
+| Claude 2.0 | $4.20 |
+
+--
+
+1. **Introduction:**
+    - Perplexity introduces two new online LLMs, pplx-7b-online and pplx-70b-online, designed to provide helpful, factual, and up-to-date responses.
+    - The primary focus is addressing the limitations of existing LLMs, including struggles with delivering fresh information and potential inaccuracies or hallucinations in responses.
+2. **PPLX Online LLMs:**
+    - These models leverage knowledge from the internet to provide up-to-date information, overcoming the freshness limitation of offline models.
+    - The process involves building on open-sourced models, using in-house search technology for relevant information, and fine-tuning models for high performance in terms of helpfulness, factuality, and freshness.
+3. **Evaluating Perplexity’s Online LLMs:**
+    - Perplexity evaluates its LLMs using curated datasets and criteria like helpfulness, factuality, and freshness.
+    - Four models, including pplx-7b-online, pplx-70b-online, gpt-3.5-turbo-1106, and llama2-70b-chat, are compared in terms of their responses to different queries.
+4. **Evaluation Results:**
+    - Elo scores are calculated for each model, demonstrating that pplx-7b-online and pplx-70b-online can match or surpass the performance of gpt-3.5 and llama2-70b.
+    - Results indicate preferences for Perplexity's models, particularly in providing accurate and up-to-date responses, as confirmed by human evaluators.
+    - A new usage-based pricing structure for accessing the models via the pplx-api is introduced, along with general release and accessibility of the models.
