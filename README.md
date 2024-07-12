@@ -6,7 +6,7 @@ i went to the reddit, internet searching for solution. watched a lot of youtube 
 
 unique selling point —-
 -the current available apps are not effective in improving and helping you with your **pronunciation**, help you with you tone especially we need to teach this data on indian accents.
--current apps offer you with you Script about what you say- help you to use the filler words, your pace and vocab.. very free apps help you with eye contact for that matter.
+-current apps offer you with you Script about what you say- help you to use the filler words, your pace and vocab.
 -we help you with your *pronunciation* and how well you learn accent, using ml and ai to help you with your script, use less filler world , your fill + more on your pronunciation using ai and ml data.
 
 For FULL NOTION DOCUMENTATION: https://bit.ly/CITIUM
