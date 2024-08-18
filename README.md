@@ -1,7 +1,7 @@
 Currently in my second year of college, I ideated a GPT-powered communication coach to improve communication.
 To bring this idea to life, I collaborated with friends, we presented our concept to incubation cells at IIT Delhi, FMS Delhi, SRCC, and St. Stephen's College, receiving guidance and incubation offers.
 
-i felt the need to articulate, expressing my though in clear and cconcise manner. this skill need a lot of beforeghand practise, identifying where you lack and make continuous effort on that.
+i felt the need to articulate, expressing my thoughts in clear and cconcise manner. this skill need a lot of beforeghand practise, identifying where you lack and make continuous effort on that.
 i went to the reddit, internet searching for solution. watched a lot of youtube videos to work on my skill and this is how i stumbled upon this idea of an app.
 
 unique selling point —-
